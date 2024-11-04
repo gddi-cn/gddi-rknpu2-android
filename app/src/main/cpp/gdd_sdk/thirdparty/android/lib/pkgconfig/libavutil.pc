@@ -1,0 +1,14 @@
+prefix=/usr/local/android
+exec_prefix=${prefix}
+libdir=/usr/local/android/lib
+includedir=/usr/local/android/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.70.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

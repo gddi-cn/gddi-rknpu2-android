@@ -1,0 +1,31 @@
+# Android Studio 生成的文件
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle files
+.gradle/
+build/
+
+# 本地配置文件
+local.properties
+
+# 日志文件
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+.idea/
